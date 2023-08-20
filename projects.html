@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="Projects.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="theme">
+        <button id="light" onclick="setLightTheme()">Light</button>
+        <button id="dark" onclick="setDarkTheme()">Dark</button>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Enter task" id="task-input">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="Practice.js"></script>
+  </body>
+</html>
