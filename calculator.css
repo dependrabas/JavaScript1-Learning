@@ -1,0 +1,32 @@
+
+        .calculator {
+            width: 200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            width: 48px;
+            height: 30px;
+            margin: 2px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+        }
+        #result{
+            background-color: tomato;
+            border-radius: 1px;
+        }
+        button{
+            background: grey;
+            border-radius: 2px;
+        }

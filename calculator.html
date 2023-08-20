@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h3>Calculator</h3>
+        <input type="text" id="result" readonly>
+        <div class="buttons">
+            
+            <button onclick="document.getElementById('result').value += '7'">7</button>
+            <button onclick="document.getElementById('result').value += '8'">8</button>
+            <button onclick="document.getElementById('result').value += '9'">9</button>
+            <button onclick="document.getElementById('result').value += '4'">4</button>
+            <button onclick="document.getElementById('result').value += '5'">5</button>
+            <button onclick="document.getElementById('result').value += '6'">6</button>
+            <button onclick="document.getElementById('result').value += '1'">1</button>
+            <button onclick="document.getElementById('result').value += '2'">2</button>
+            <button onclick="document.getElementById('result').value += '3'">3</button>
+            <button onclick="document.getElementById('result').value += '0'">0</button>
+            <button onclick="document.getElementById('result').value += '+'">+</button>
+            <button onclick="document.getElementById('result').value += '-'">-</button>
+            <button onclick="document.getElementById('result').value += '*'">*</button>
+            <button onclick="document.getElementById('result').value += '/'">/</button>
+            <button onclick="document.getElementById('result').value = ''">C</button>
+            <button onclick="document.getElementById('result').value = eval(document.getElementById('result').value)">=</button>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Set Paragraph Background Color</title>
+</head>
+<body>
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Voluptate quaerat expedita<br> nostrum error, recusandae reprehenderit.
+    </p>
+    <button onclick="setBgColor('paragraph', 'red')">Red</button><br>
+    <button onclick="setBgColor('paragraph', 'blue')">Blue</button><br>
+    <button onclick="setBgColor('paragraph', 'green')">Green</button><br>
+
+    <script>
+        function setBgColor(elementId, color) {
+            document.getElementById(elementId).style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
