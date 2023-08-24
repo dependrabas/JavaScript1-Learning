@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="window.alert('Page loaded successfully');">
+    <H1>JavaScript Learning</H1>
+    <input type="text" id="input1" onfocus="FocusEvent()">
+    <script>
+        function FocusEvent(){
+            document.getElementById('input1').style.background="red";
+        }
+        function mouseoverrevert(){
+            alert("This is javascript!!");
+        }
+        document.write("This is loaded successfully!!");
+    </script>
+    <p onmouseover="mouseoverrevert()">Keep courser over me.</p>
+</body>
+</html>
