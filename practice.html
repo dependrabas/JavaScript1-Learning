@@ -7,8 +7,14 @@
 </head>
 <body onload="window.alert('Page loaded successfully');">
     <H1>JavaScript Learning</H1>
+    <p>welcome to js</p>
     <input type="text" id="input1" onfocus="FocusEvent()">
+    <button id="btn"> Click me</button>
     <script>
+        document.getElementById('btn').addEventListener("click",fun);
+        function fun(){
+            document.getElementById("para").innerHTML = "Hello world" +"<br>"+"Welcome";
+        }
         function FocusEvent(){
             document.getElementById('input1').style.background="red";
         }
